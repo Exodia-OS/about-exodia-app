@@ -4,12 +4,12 @@
 
 pkgname=about-exodia-os
 pkgver=2.0
-pkgrel=3
+pkgrel=4
 pkgdesc="About Exodia OS"
 url="https://github.com/Exodia-OS/exodia-apps"
 arch=('any')
 license=('GPL3')
-makedepends=()
+depends=('exodia-pip-venv')
 groups=('exodia-apps')
 depends=('yad')
 conflicts=()
